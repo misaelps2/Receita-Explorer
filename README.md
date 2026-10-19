@@ -60,4 +60,22 @@ testável e auditável para essa tarefa.
 - OpenPyXL
 - Pytest
 
-## Estrutura dos diretórios
+
+
+
+# 1. Clonar e entrar no projeto
+git clone <url-do-repositorio> receita-explorer
+cd receita-explorer
+
+# 2. Criar e ativar ambiente virtual
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. Atualizar pip e instalar dependências
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# 4. Executar a aplicação
+streamlit run app.py
+
+
